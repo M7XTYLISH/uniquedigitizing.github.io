@@ -10,9 +10,25 @@
         content-visibility: auto;
     }
 }
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #818a91;
+    --dark-grey: #28282a;
+    --orange: #be5b00;
+    --pink: #f2decc;
+}
 .nav-a{
     transition: all .3s ease-in-out;
 }
 .nav-a:hover{
-    color: grey;
+    color: orangered !important;
+}
+.text-bold{
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+.active{
+    color: orangered;
 }
